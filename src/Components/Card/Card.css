@@ -1,0 +1,19 @@
+.B {
+  border: 2px solid red;
+}
+.IB {
+  border: 1px solid purple;
+}
+.card {
+  width: 40%; /* o 300px se preferisci fisso */
+  height: 70vh;
+  /* margin-left: 10px; */
+  background-image: url(../../assets/book.png);
+  border-radius: 10px;
+
+  text-align: center;
+}
+.title-c{
+    font-size: 100px;
+    color: #fff;
+}

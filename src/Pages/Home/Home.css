@@ -1,0 +1,57 @@
+.home {
+  position: relative; /* serve per posizionare in assoluto dentro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f0f0f0;
+  flex-direction: column; /* mantieni le card sotto */
+}
+
+/* Posiziona la barra di ricerca sopra le card */
+.form-container {
+  position: absolute;
+  top: 50%; /* centro verticale */
+  left: 50%;
+  transform: translate(-50%, -150%); /* sposta verso l’alto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* porta davanti alle card */
+}
+
+/* Input e bottone */
+.form-container input {
+  height: 50px;
+  width: 500px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: 0;
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+.form-container button {
+  height: 50px;
+  width: 50px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  outline: 0;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.form-container button img{
+  height: 50px;
+  width: 50px;
+
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 80vh;
+  width: 100%;
+  z-index: 1;
+}

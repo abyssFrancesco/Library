@@ -2,11 +2,12 @@ import React from "react";
 import "./Card.css";
 
 
-function Card() {
-  console.log("card");
+function Card({className}) {
+  
+
   return (
     <>
-      <div className="card IB">
+      <div  className={`card ${className}`}>
         <div className="title-c">
             <h1>Books</h1>
         </div>

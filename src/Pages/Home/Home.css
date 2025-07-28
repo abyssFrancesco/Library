@@ -30,6 +30,7 @@
   outline: 0;
   padding: 0 10px;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .form-container button {
@@ -50,7 +51,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
   height: 80vh;
   width: 100%;
   z-index: 1;

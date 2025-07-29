@@ -1,0 +1,28 @@
+.author{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f0f0f0;
+  flex-direction: column; 
+}
+.card-box{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+  height: 80vh;
+  width: 100%;
+
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.author-name{
+    color: #000000;
+    
+}

@@ -6,21 +6,31 @@
 }
 .card {
   /* margin-left: 10px; */
-  background-image: url(../../assets/book.png);
+
   border-radius: 10px;
 
   text-align: center;
   cursor: pointer;
 }
-.title-c{
-    font-size: 100px;
-    color: #fff;
-}
-.small{
+/* .title-c {
+  font-size: 100px;
+  color: #fff;
+} */
+.small {
   width: 45%; /* o 300px se preferisci fisso */
   height: 70vh;
+  background-image: url(../../assets/book.png);
 }
-.large{
+.small .title-c {
+  font-size: 100px;
+  color: #fff;
+}
+.large {
   width: 45%; /* o 300px se preferisci fisso */
   height: 90vh;
+  background-image: url(../../assets/author.png);
+}
+.large .title-c{
+  font-size: 100px;
+  color: #363636;
 }

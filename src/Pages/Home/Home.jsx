@@ -29,18 +29,18 @@ function Home() {
 
   return (
     <>
-      <div className="home B">
+      <div className="home ">
         <div className="title">{/*        <h1>The cool Library</h1> */}</div>
         <div className="form-container">
             {/* Prendiamo il valore nel campo di testo e lo passiamo alla variabile che grazie alla funzione
             cambierà stato della variabile*/}
-          <input type="text" placeholder="Type in The book's Name.." value={searchTerm} onChange={(e)=> setSearchTerm(e.target.value)}/>
+          <input type="text" placeholder="Type in The Book's Name..📕" value={searchTerm} onChange={(e)=> setSearchTerm(e.target.value)}/>
           {/* Quando clicchi il tasto fai partire il fetching */}
           <button onClick={fetchBooks}>
             <img src={searchIcon} alt="" />
           </button>
         </div>
-        <div className="card-container IB">
+        <div className="card-container">
             {/* passa un prop per mettere lo stile */}
           <Card className="small"/>
           <Card className="large"/>

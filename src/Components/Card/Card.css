@@ -27,10 +27,10 @@
 }
 .large {
   width: 45%; /* o 300px se preferisci fisso */
-  height: 90vh;
+  height: 80vh;
   background-image: url(../../assets/author.png);
 }
 .large .title-c{
   font-size: 100px;
-  color: #363636;
+  color: #000000;
 }

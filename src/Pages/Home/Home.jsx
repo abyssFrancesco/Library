@@ -42,8 +42,8 @@ function Home() {
         </div>
         <div className="card-container">
             {/* passa un prop per mettere lo stile */}
-          <Card className="small"/>
-          <Card className="large"/>
+          <Card className="small" title={"Books"} to="/books"/>
+          <Card className="large" title={"Author"} to="/author"/>
         </div>
       </div>
     </>

@@ -1,3 +1,6 @@
+* {
+  font-family: "intel one mono";
+}
 .B {
   border: 2px solid red;
 }
@@ -17,29 +20,53 @@
   color: #fff;
 } */
 .small {
-  width: 45%; /* o 300px se preferisci fisso */
-  height: 70vh;
-/*   background-image: url(../../assets/book.png); */
+  width: 800px; /* o 300px se preferisci fisso */
+  height: 700px;
+  /*   background-image: url(../../assets/book.png); */
+  transition: transform 0.4s ease;
 }
-.small .title-c {
-  font-size: 100px;
+.small:hover {
+  transform: scale(1.03);
+}
+.small .title-c h1 {
+  font-size: 150px;
   color: #fff;
+  font-family: "intel one mono";
 }
 .large {
-  width: 45%; /* o 300px se preferisci fisso */
-  height: 80vh;
-/*   background-image: url(../../assets/author.png); */
+  width: 900px; /* o 300px se preferisci fisso */
+  height: 800px;
+  /*   background-image: url(../../assets/author.png); */
+  transition: transform 0.4s ease;
 }
-.large .title-c {
-  font-size: 100px;
-  color: #000000;
+.large:hover {
+  transform: scale(1.03);
+}
+.large .title-c h1 {
+  font-size: 200px;
+  color: #292929;
+  font-family: "intel one mono";
 }
 .book-cover {
-  width: 30%;
-  height: 70vh;
- /*  background-image: url(../../assets/cover.jpg); */
+  width: 300px; /* fisso, evita deformazioni */
+  height: 450px; /* rapporto 2:3 simile a un libro */
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: contain; /* mostra tutta la cover */
+  border-radius: 10px;
 }
-
+.description-card {
+  height: 700px;
+  width: 900px;
+  background-color: yellow;
+  transition: transform 0.4s ease;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.description-card:hover {
+  transform: scale(1.03);
+}
+.description-card p{
+  margin: 40px;
+}

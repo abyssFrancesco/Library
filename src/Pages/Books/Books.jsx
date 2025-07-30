@@ -7,7 +7,7 @@ function Books() {
     <>
       <div className="Books IB">
         <div className="book-box">
-          <bookComp />
+          <bookComp/>
         </div>
       </div>
     </>

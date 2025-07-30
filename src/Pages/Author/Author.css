@@ -1,28 +1,30 @@
-.author{  
+.author {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* invece di height:100vh */
+  width: 100%;
+  background-color: #ffffff;
+  overflow-x: hidden; /* blocca scrollbar orizzontale */
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-box {
+  flex: 1; /* occupa lo spazio rimanente */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  gap: 200px;
+  flex-wrap: wrap; /* se lo spazio non basta, le card vanno a capo */
   width: 100%;
-  background-color: #f0f0f0;
-  flex-direction: column; 
+  box-sizing: border-box;
 }
-.card-box{
- display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  gap: 90px;
-  height: 80vh;
-  width: 100%;
-
-}
-.name{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.author-name{
-    color: #000000;
-    
+.author-name {
+  font-size: 80px;
+  color: #000000;
 }

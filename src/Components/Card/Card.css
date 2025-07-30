@@ -19,7 +19,7 @@
 .small {
   width: 45%; /* o 300px se preferisci fisso */
   height: 70vh;
-  background-image: url(../../assets/book.png);
+/*   background-image: url(../../assets/book.png); */
 }
 .small .title-c {
   font-size: 100px;
@@ -28,9 +28,18 @@
 .large {
   width: 45%; /* o 300px se preferisci fisso */
   height: 80vh;
-  background-image: url(../../assets/author.png);
+/*   background-image: url(../../assets/author.png); */
 }
-.large .title-c{
+.large .title-c {
   font-size: 100px;
   color: #000000;
 }
+.book-cover {
+  width: 30%;
+  height: 70vh;
+ /*  background-image: url(../../assets/cover.jpg); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+

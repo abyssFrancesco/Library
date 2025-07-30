@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Card from "../../Components/Card/Card";
 import searchIcon from "../../assets/search.png";
+import bookImg from "../../assets/book.png";
+import authorImg from "../../assets/author.png";
 
 function Home() {
     //prendiamo il valore del campo input (nome del libro) e passiamolo nell'api
@@ -42,8 +44,8 @@ function Home() {
         </div>
         <div className="card-container">
             {/* passa un prop per mettere lo stile */}
-          <Card className="small" title={"Books"} to="/books"/>
-          <Card className="large" title={"Author"} to="/author"/>
+          <Card className="small" title={"Books"} to="/books" image={bookImg}/>
+          <Card className="large" title={"Author"} to="/author" image={authorImg}/>
         </div>
       </div>
     </>
